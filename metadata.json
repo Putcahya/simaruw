@@ -1,0 +1,7 @@
+{
+  "name": "SIMARUW - Sistem Informasi Maps Rumah Warga",
+  "description": "A comprehensive house mapping system for residents, featuring interactive maps, search functionality, and navigation links with a fresh blue-green aesthetic.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

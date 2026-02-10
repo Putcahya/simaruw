@@ -107,9 +107,9 @@ const App: React.FC = () => {
                   </h4>
                   <div className="space-y-4">
                     {[
-                      { icon: '🔍', text: 'Cari berdasarkan nama lengkap' },
-                      { icon: '📍', text: 'Pilih "Lihat di Peta" untuk fokus' },
-                      { icon: '🚗', text: 'Klik navigasi untuk G-Maps' }
+                      {text: 'Cari berdasarkan nama lengkap' },
+                      {text: 'Pilih "Lihat di Peta" untuk fokus' },
+                      {text: 'Klik navigasi untuk G-Maps' }
                     ].map((item, i) => (
                       <div key={i} className="flex items-center gap-4 p-3 rounded-2xl hover:bg-white/50 transition-colors cursor-default">
                         <span className="text-xl">{item.icon}</span>
@@ -129,7 +129,7 @@ const App: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
               <div>
                 <h2 className="text-4xl font-black text-slate-900 mb-4 tracking-tight">
-                  {isSearching ? `Hasil Pencarian` : 'Daftar Penghuni'}
+                  {isSearching ? `Hasil Pencarian` : 'Daftar Warga Padukuhan Puyang'}
                 </h2>
                 <div className="flex items-center gap-3">
                   <div className="h-2 w-20 bg-emerald-500 rounded-full"></div>

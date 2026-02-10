@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-10">
           {/* Logo & Info */}
           <div className="lg:col-span-5 space-y-4">
-            <Logo size="md" />
+            <Logo size="sm" />
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
               Sistem Informasi Maps Rumah Warga (SIMARUW) hadir untuk meningkatkan transparansi dan akses informasi data perumahan dengan teknologi pemetaan digital terkini.
             </p>
